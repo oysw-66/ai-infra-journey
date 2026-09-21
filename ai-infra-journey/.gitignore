@@ -1,0 +1,36 @@
+# IDE
+.vs/
+.vscode/
+.idea/
+*.sln.docstates
+
+# Build
+build/
+cmake-build-*/
+out/
+x64/
+Debug/
+Release/
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+
+# CUDA
+*.ptx
+*.cubin
+*.fatbin
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
